@@ -1,0 +1,166 @@
+  
+{% load static %}
+  <!-- Footer -->
+  <footer class="footer pt-0"><div class="row align-items-center justify-content-lg-between">
+  <div class="col-lg-6">
+  <div class="copyright text-center text-lg-left text-muted">© 2020 
+  <a href="https://www.creative-tim.com" class="font-weight-bold ml-1" target="_blank">Creative Tim</a>
+   &amp; <a href="https://themesberg.com" class="font-weight-bold ml-1" target="_blank">Themesberg</a>
+</div></div><div class="col-lg-6"><ul class="nav nav-footer justify-content-center justify-content-lg-end"><li class="nav-item">
+<a href="https://www.creative-tim.com" class="nav-link" target="_blank">Creative Tim</a>
+</li><li class="nav-item">
+<a href="https://themesberg.com" class="nav-link" target="_blank">Themesberg</a>
+</li>
+<li class="nav-item">
+<a href="https://www.creative-tim.com/presentation" class="nav-link" target="_blank">About Us</a>
+</li><li class="nav-item"><a href="http://blog.creative-tim.com" class="nav-link" target="_blank">Blog</a></li>
+<li class="nav-item"><a href="https://www.creative-tim.com/license" class="nav-link" target="_blank">License</a></li></ul></div></div></footer></div></div><!-- Argon Scripts --><!-- Core -->
+<script ></script>
+
+  <script src="{% static 'dashboard/assets/vendor/jquery/dist/jquery.min.js' %}"></script>
+  
+  <script src="{% static 'dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'dashboard/assets/vendor/js-cookie/js.cookie.js' %}"></script>
+  <script src="{% static 'dashboard/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js' %}"></script>
+  <script src="{% static 'dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js' %}">
+  </script>
+  <!-- Optional JS -->
+  <script src="{% static 'dashboard/assets/vendor/chart.js/dist/Chart.min.js' %}"></script>
+  <script src="{% static 'dashboard/assets/vendor/chart.js/dist/Chart.extension.js' %}"></script>
+  <!-- Argon JS -->
+  <script src="{% static 'dashboard/assets/js/dashboard.js?v=1.2.0' %}"></script>
+  <!-- Demo JS - remove this in your project -->
+  <script src="{% static 'dashboard/assets/js/demo.min.js' %}"></script>
+<style>
+  #ofBar {
+    background: #1A1E21;
+    z-index: 999999999;
+    font-size: 16px;
+    color: #fff;
+    padding: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    width: 80%;
+    border-radius: 5px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 13px 27px -5px rgba(50,50,93,0.25), 0 8px 16px -8px rgba(0,0,0,0.3), 0 -6px 16px -6px rgba(0,0,0,0.025);
+  }
+
+  #ofBar-logo img {
+    height: 50px;
+  }
+
+  #ofBar-content {
+    display: inline;
+    padding: 0 15px;
+  }
+
+  #ofBar-right {
+    display: flex;
+    align-items: center;
+  }
+
+  #ofBar b {
+    font-size: 15px !important;
+  }
+  #count-down {
+    display: initial;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  #close-bar {
+    font-size: 17px;
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  #close-bar:hover{
+    opacity: 1;
+  }
+  #btn-bar {
+    background-color: #fff;
+    color: #40312d;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    opacity: .95;
+    margin-right: 20px;
+    box-shadow: 0 5px 10px -3px rgba(0,0,0,.23), 0 6px 10px -5px rgba(0,0,0,.25);
+  }
+  #btn-bar:hover{
+    opacity: 0.9;
+  }
+  #btn-bar{
+    opacity: 1;
+  }
+
+  #btn-bar span, #ofBar-content span {
+    color: red;
+    font-weight: 700;
+  }
+
+  #oldPriceBar {
+    text-decoration: line-through;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    top: 2px;
+    position: relative;
+  }
+  #newPrice{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;
+    top: 2px;
+    position: relative;
+    margin-left: 7px;
+  }
+
+  #fromText {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    margin-right: 3px;
+    top: 0px;
+    position: relative;
+  }
+
+  @media(max-width: 991px){
+    #count-down {
+      display: block;
+      margin-top: 15px;
+      text-align: center;
+      font-size: 19px;
+    }
+  }
+  @media (max-width: 768px) {
+    
+    #ofBar {
+      flex-direction: column;
+      align-items: normal;
+    }
+
+    #ofBar-content {
+      margin: 15px 0;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    #ofBar-right {
+      justify-content: flex-end;
+    }
+  }
+</style>
+
+<script type="text/javascript" id="">function setCookie(b,d,c){var a=new Date;a.setTime(a.getTime()+864E5*c);c="expires\x3d"+a.toUTCString();document.cookie=b+"\x3d"+d+";"+c+";path\x3d/"}function readCookie(b){b+="\x3d";for(var d=document.cookie.split(";"),c=0;c<d.length;c++){for(var a=d[c];" "==a.charAt(0);)a=a.substring(1,a.length);if(0==a.indexOf(b))return a.substring(b.length,a.length)}return null} function createOfferBar(){var b=document.createElement("div");b.setAttribute("id","ofBar");b.innerHTML="\x3cdiv id\x3d'ofBar-logo'\x3e \x3cimg alt\x3d'creative-tim-logo' src\x3d'https://s3.amazonaws.com/creativetim_bucket/tim_static_images/white_left.png'\x3e\x3c/div\x3e\x3cdiv id\x3d'ofBar-content'\x3e\ud83c\udf81 \x3cb\x3eWinter Sale!\x3c/b\x3e Take advantage of our 6 Special Bundles and save \x3cb\x3eup to 85% OFF\x3c/b\x3e\x3c/div\x3e\x3cdiv id\x3d'ofBar-right'\x3e\x3ca href\x3d'https://www.creative-tim.com/campaign?ref\x3dwinter-demos-2020' target\x3d'_blank' id\x3d'btn-bar'\x3eView Offers\x3c/a\x3e\x3ca id\x3d'close-bar'\x3e\u00d7\x3c/a\x3e\x3c/div\x3e";document.body.insertBefore(b, document.body.firstChild)}function closeOfferBar(){document.getElementById("ofBar").setAttribute("style","display:none");setCookie("view_offer_bar","true",1)}var value=readCookie("view_offer_bar");null==value&&(createOfferBar(),document.getElementById("close-bar").addEventListener("click",closeOfferBar));</script>
+<iframe name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame" src="https://vars.hotjar.com/box-469cf41adb11dc78be68c1ae7f9457a4.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe></body></html>

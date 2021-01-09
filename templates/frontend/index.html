@@ -1,0 +1,383 @@
+{% extends 'front-base.html' %}
+{% load static %}
+
+{% block content %}
+
+	<div>
+		<div class="preloader bg-soft flex-column justify-content-center align-items-center">
+		    <div class="loader-element">
+		        <span class="loader-animated-dot"></span>
+		        <img src="{% static 'front/assets/img/brand/dark-loader.svg' %}" height="40" alt="Impact logo">
+		    </div>
+		</div>
+
+        <!-- Hero -->
+        <section class="section-header pb-11 pb-lg-13 bg-primary text-white">
+            <div class="container">
+               <div class="row justify-content-center">
+                  <div class="col-12 col-md-10 text-center">
+                     <h1 class="display-1 mb-4">Scrape Master serves mega business firms.</h1>
+                     <p class="lead mb-5 px-lg-5"><b>Thoroughly directed and furnished enterprise web scraping service</b> <br> 
+                     Having earned the trust of the internationally recognized companies, Scrape Master aims at converting countless web pages into practicable data. Our reliable data provides pretty well-organized and useful guidance to decision-makers for enhancing their business outputs.</p>
+                     <!-- Button Modal --> 
+                     <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#pricing-modal"><span class="mr-2"><i class="fas fa-hand-pointer"></i></span> Start <span class="d-none d-md-inline">a 30-days</span> trial</button> <a class="btn btn-white text-primary animate-up-2 ml-3" href="../../dashboard/pages/dashboards/dashboard.html">Quick demo</a>
+                  </div>
+               </div>
+            </div>
+            <div class="pattern bottom"></div>
+         </section>
+        <div class="section pt-0">
+            <div class="container mt-n9 mt-lg-n12 z-2">
+               <div class="row justify-content-center">
+                  <div class="col-12"><img src="{% static 'front/assets/img/index-mockup.png' %}" alt="illustration"></div>
+                  <!-- <div class="col-12"><img src="../assets/img/illustrations/hero-illustration.svg" alt="illustration"></div> -->
+               </div>
+            </div>
+         </div>
+        <section class="section section-lg pt-0">
+            <div class="container">
+               <div class="row justify-content-center mb-5 mb-lg-6">
+                  <div class="col-12 col-md-8 text-center">
+                     <h2 class="h1 font-weight-bolder mb-4">Our Services</h2>
+                     <p class="lead">
+                        Our special service and improvised platform reporting enable you to produce reports that help you analyse your data.
+                     </p>
+                  </div>
+               </div>
+               <div class="row justify-content-center">
+                    <div class="col-12 col-log-6 col-md-6 col-sm-12 text-center">
+                        <div class="icon icon-shape icon-lg bg-white shadow-lg border-light rounded-circle icon-primary mb-4">
+                            <i class="fas fa-pager"></i>
+                        </div>
+                        <h3 class="font-weight-bolder">Web Scraping Services</h3>
+                        <p class="text-gray">
+                            We provide you all the data — and you don't have to have any scrapping tools, skills, software or hardware. It's pretty simple and easy for us to provide you data without the mentioned tools with you.
+                        </p>
+                    </div>
+                    <div class="col-12 col-log-6 col-md-6 col-sm-12 text-center">
+                        <div class="icon icon-shape icon-lg bg-white shadow-lg border-light rounded-circle icon-primary mb-4">
+                            <i class="fas fa-puzzle-piece"></i>
+                        </div>
+                        <h3 class="font-weight-bolder">Web Scraping API</h3>
+                        <p class="text-gray">
+                            Our services develop custom real-time APIs required for those websites that have no API providing service, or don't have limited APIs with respect to time or data — that primarily help you incorporate the data in softwares.
+                        </p>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <section class="section section-lg bg-primary text-white">
+            <div class="container">
+                <div class="row justify-content-center mb-5 mb-lg-6">
+                    <div class="col-12 text-center">
+                        <h2 class="h1 px-lg-5">
+                            How  to use data through web scraping for business
+                        </h2>
+                        <p class="lead px-lg-8">
+                            Web scraping makes it pretty easy for a businesses to get unorganized data on the world wide web and organize it. The resulted data can be used by their applications, and it will primarily provide commercial enterprise value.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-lg-6">
+                        <div class="card bg-white shadow-soft text-primary rounded mb-4">
+                            <div class="px-3 px-lg-4 py-5 text-center">
+                                <span class="icon icon-lg mb-4"><i class="fab fa-sass"></i></span>
+                                <h5 class="font-weight-normal text-primary">
+                                    Prices, Products and Review of Data
+                                </h5>
+                                <p>
+                                    Scrape eCommerce websites for getting product prices, accessibility, assessment, reputation and brand. Supervise your distribution series and check out customer reviews for taking your products forward.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-lg-6">
+                        <div class="card bg-white shadow-soft text-primary rounded mb-4">
+                            <div class="px-3 px-lg-4 py-5 text-center">
+                                <span class="icon icon-lg mb-4"><i class="fab fa-bootstrap"></i></span>
+                                <h5 class="font-weight-normal text-primary">
+                                    Stock Market and Financial Data
+                                </h5>
+                                <p>
+                                    Collect international finance market data, commercial markets, stocks, commodity and economic measures. Increase the data for presenting it to experts and infernal financial models for the best performance.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-sm-6 col-lg-6">
+                        <div class="card bg-white shadow-soft text-primary rounded mb-4">
+                            <div class="px-3 px-lg-4 py-5 text-center">
+                                <span class="icon icon-lg mb-4"><i class="far fa-images"></i></span>
+                                <h5 class="font-weight-normal text-primary">
+                                    Airline, Traveling and Hotel Data
+                                </h5>
+                                <p>
+                                    Get data from websites for travel to examine hotel reviews, room information and airline ticket prices via our web scraping services.  Get the best and authentic data.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-6">
+                        <div class="card bg-white shadow-soft text-primary rounded mb-4">
+                            <div class="px-3 px-lg-4 py-5 text-center">
+                                <span class="icon icon-lg mb-4"><i class="far fa-file-alt"></i></span>
+                                <h5 class="font-weight-normal text-primary">
+                                    Research and Journalism Data
+                                </h5>
+                                <p>
+                                    Make your research project more authentic, or news story more impressive with data from the web - Environmental Data, Crime Data, Third World Development Data, National and international trends etc.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-6">
+                        <div class="card bg-white shadow-soft text-primary rounded mb-4">
+                            <div class="px-3 px-lg-4 py-5 text-center">
+                                <span class="icon icon-lg mb-4"><i class="fas fa-medkit"></i></span>
+                                <h5 class="font-weight-normal text-primary">
+                                    Data from Social Media
+                                </h5>
+                                <p>
+                                    Collect data from social media like Twitter, Facebook and Instagram. Get different data and much more from these sites. Handle your reach and review the results of your campaigns.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-6">
+                        <div class="card bg-white shadow-soft text-primary rounded mb-4">
+                            <div class="px-3 px-lg-4 py-5 text-center">
+                                <span class="icon icon-lg mb-4"><i class="fab fa-html5"></i></span>
+                                <h5 class="font-weight-normal text-primary">
+                                    Human Capital and Job Data
+                                </h5>
+                                <p>
+                                    Meet talented employees for your company or keep tabs on who your competition is hiring. Get jobs from job boards or company websites, know the nature of jobs you want. And these are possible only through web scraping.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section section-lg pt-6">
+            <div class="container">
+                <div class="row justify-content-center mb-5 mb-md-7">
+                  <div class="col-12 col-md-8 text-center">
+                     <h2 class="h1 font-weight-bolder mb-4">ScrapeHero is one of the best web scraping companies in the world for a reason</h2>
+                  </div>
+               </div>
+
+               <div class="row row-grid align-items-center mb-5 mb-md-7">
+                  <div class="col-12 col-md-5">
+                     <h2 class="font-weight-bolder mb-4">Exceptional service for an enjoyable customer experience</h2>
+                     <p class="lead">Customer happiness drives our enjoyable customer experience. Our customers love to work with us, and we have an industry leading customer retention rate as a result. We have real humans who will talk to you within minutes of your request and help you with your data scraping needs.</p>
+                     <ul>
+                        <li>98% Customer Retention Rate</li>
+                        <li>Responses in less than 1 hour during business hours</li>
+                        <li>Real experts in technology and business processes ready to help</li>
+                     </ul>
+                     <!-- <a href="about.html" class="btn btn-primary mt-3 animate-up-2">Learn More <span class="icon icon-xs ml-2"><i class="fas fa-external-link-alt"></i></span></a> -->
+                  </div>
+                  <div class="col-12 col-md-6 ml-md-auto"><img src="{% static 'front/assets/img/illustrations/feature-illustration.svg' %}" alt=""></div>
+               </div>
+
+               <div class="row row-grid align-items-center mb-5 mb-md-7">
+                  <div class="col-12 col-md-5 order-md-2">
+                     <h2 class="font-weight-bolder mb-4">Unmatched data quality and consistency</h2>
+                     <p>Our automated data quality checks utilize Artificial Intelligence and Machine Learning to identify data quality issues. We invest heavily in improving our data quality processes and validation using a combination of automated and manual methods and pass on the benefits to our customers at no extra cost.</p>
+                     <ul>
+                        <li>Data Quality checks powered by Artificial Intelligence</li>
+                        <li>Automated Alerts for any change in data, quality or website structure</li>
+                        <li>Thousands of alerts monitored daily to avoid disruptions to data delivery</li>
+                     </ul>
+                     <!-- <a href="about.html" class="btn btn-primary mt-3 animate-up-2">Rank Tracker Tool <span class="icon icon-xs ml-2"><i class="fas fa-external-link-alt"></i></span></a> -->
+                  </div>
+                  <div class="col-12 col-md-6 mr-lg-auto"><img src="{% static 'front/assets/img/illustrations/feature-illustration-2.svg' %}" alt=""></div>
+               </div>
+
+               <div class="row row-grid align-items-center mb-5 mb-md-7">
+                  <div class="col-12 col-md-5">
+                     <h2 class="font-weight-bolder mb-4">The best web crawling infrastructure</h2>
+                     <p class="lead">Our platform was built for scale and is capable of crawling the web at thousands of pages per second and extracting data from millions of web pages daily. Our global infrastructure makes large scale data extraction easy and painless by handling complex JavaScript/AJAX sites, CAPTCHA, IP blacklisting transparently</p>
+                     <ul>
+                        <li>Self healing tech to tackle website changes</li>
+                        <li>Infrastructure distributed across the globe</li>
+                        <li>Huge browser farms to handle complex websites</li>
+                     </ul>
+                     <!-- <a href="about.html" class="btn btn-primary mt-3 animate-up-2">Learn More <span class="icon icon-xs ml-2"><i class="fas fa-external-link-alt"></i></span></a> -->
+                  </div>
+                  <div class="col-12 col-md-6 ml-md-auto"><img src="{% static 'front/assets/img/illustrations/feature-illustration.svg' %}" alt=""></div>
+               </div>
+
+               <div class="row row-grid align-items-center">
+                  <div class="col-12 col-md-5 order-md-2">
+                     <h2 class="font-weight-bolder mb-4">Real experts with decades of experience</h2>
+                     <p>Our experts have decades of experience in various industries. Talking to them is free and comes with no obligations to sign up with us. Get insights into what other companies in your industry are doing. Learn how you can use web based data to stay relevant in this fast changing world and shift to online services. <br>Contact us and talk to one of our experts and explore ways we can help your business.</p>
+                     <!-- <a href="about.html" class="btn btn-primary mt-3 animate-up-2">Rank Tracker Tool <span class="icon icon-xs ml-2"><i class="fas fa-external-link-alt"></i></span></a> -->
+                  </div>
+                  <div class="col-12 col-md-6 mr-lg-auto"><img src="{% static 'front/assets/img/illustrations/scraping-illustration.png' %}" alt=""></div>
+               </div>
+
+               <div class="row">
+                  <div class="col-12 col-md-6 col-lg-4 mb-4">
+                     <div class="card border-light p-4">
+                        <div class="card-body">
+                           <h2 class="display-2 mb-2">98%</h2>
+                           <span>Average satisfaction rating received in the past year</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4 mb-4">
+                     <div class="card border-light p-4">
+                        <div class="card-body">
+                           <h2 class="display-2 mb-2">24/7</h2>
+                           <span>Our support team is a quick chat or email away — 24 hours a day</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-4 mb-4">
+                     <div class="card border-light p-4">
+                        <div class="card-body">
+                           <h2 class="display-2 mb-2">220k+</h2>
+                           <span>Extension installs from the two major mobile app stores</span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+        <section class="section section-lg bg-soft">
+            <div class="container">
+               <div class="row justify-content-center mb-5 mb-md-7">
+                  <div class="col-12 col-md-8 text-center">
+                     <h2 class="h1 font-weight-bolder mb-4">Data Delivery and Formats</h2>
+                     <p class="lead">We build end-to-end Web Data Integration (WDI) solutions using custom APIs and webhooks to integrate web based data with enterprise applications.</p>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-12 col-md-6 col-lg-6 mb-5">
+                     <div class="card shadow-soft border-light">
+                        <div class="card-body">
+                           <h3 class="card-title mt-3">Transform data into any structure or format</h3>
+                           <p class="card-text">We can help you decide which data formats and structures suit your requirements. Be it nested JSON, relational data structures, parent/child tables, SQL dumps. Get the crawled data in any format - JSON, CSV, Excel, XML and more.</p>
+                           <a href="about.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12 col-md-6 col-lg-6 mb-5">
+                     <div class="card shadow-soft border-light">
+                        <div class="card-body">
+                           <h3 class="card-title mt-3">Automated data delivery to any location</h3>
+                           <p class="card-text">Our web data integration platform integrates with cloud storage providers such as Amazon S3, DropBox, Microsoft Azure, Google Cloud Storage, and FTP. We can help you automate and integrate web data with your internal applications.</p>
+                           <a href="about.html" class="btn btn-primary">Learn More</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+        <section class="section">
+            <div class="container">
+               <div class="row justify-content-center mb-5 mb-lg-7">
+                  <div class="col-12 col-md-8 text-center">
+                     <h1 class="h1 font-weight-bolder mb-4">Recommended by leading experts in marketing and SEO</h1>
+                     <p class="lead">Our products are loved by users worldwide</p>
+                  </div>
+               </div>
+               <div class="row mb-lg-5">
+                  <div class="col-12 col-lg-6">
+                     <div class="customer-testimonial d-flex mb-5">
+                        <img src="{% static 'front/assets/img/team/profile-picture-1.jpg' %}" class="image image-sm mr-3 rounded-circle shadow" alt="">
+                        <div class="content bg-soft shadow-soft border border-light rounded position-relative p-4">
+                           <div class="d-flex mb-4"><span class="text-warning mr-2"><i class="star fas fa-star"></i></span> <span class="text-warning mr-2"><i class="star fas fa-star"></i></span> <span class="text-warning mr-2"><i class="star fas fa-star"></i></span> <span class="text-warning mr-2"><i class="star fas fa-star"></i></span> <span class="text-warning mr-2"><i class="star fas fa-star"></i></span></div>
+                           <p class="mt-2">"We use Rocket mainly for its site explorer, and it’s immensely improved how we find link targets. We use it both for getting quick analysis of a site, as well as utilizing its extensive index when we want to dive deep."</p>
+                           <span class="h6">- James Curran <small class="ml-0 ml-md-2">Designer Apple</small></span>
+                        </div>
+                     </div>
+                     <div class="customer-testimonial d-flex mb-5">
+                        <img src="{% static 'assets/img/team/profile-picture-2.jpg' %}" class="image image-sm mr-3 rounded-circle shadow" alt="">
+                        <div class="content bg-soft shadow-soft border border-light rounded position-relative p-4">
+                           <div class="d-flex mb-4"><span class="text-warning mr-2"><i class="star fas fa-star"></i></span> <span class="text-warning mr-2"><i class="star fas fa-star"></i></span> <span class="text-warning mr-2"><i class="star fas fa-star"></i></span> <span class="text-warning mr-2"><i class="star fas fa-star"></i></span> <span class="text-warning mr-2"><i class="star fas fa-star"></i></span></div>
+                           <p class="mt-2">"We use Rocket mainly for its site explorer, and it’s immensely improved how we find link targets. We use it both for getting quick analysis of a site, as well as utilizing its extensive index when we want to dive deep."</p>
+                           <span class="h6">- Richard Thomas <small class="ml-0 ml-md-2">Engineer Google</small></span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-12 col-lg-6 pt-lg-6">
+                     <div class="customer-testimonial d-flex mb-5">
+                        <img src="{% static 'front/assets/img/team/profile-picture-4.jpg' %}" class="image image-sm mr-3 rounded-circle shadow" alt="">
+                        <div class="content bg-soft shadow-soft border border-light rounded position-relative p-4">
+                           <div class="d-flex mb-4"><span class="text-warning mr-2"><i class="star fas fa-star"></i></span> <span class="text-warning mr-2"><i class="star fas fa-star"></i></span> <span class="text-warning mr-2"><i class="star fas fa-star"></i></span> <span class="text-warning mr-2"><i class="star fas fa-star"></i></span> <span class="text-warning mr-2"><i class="star fas fa-star"></i></span></div>
+                           <p class="mt-2">"We use Rocket mainly for its site explorer, and it’s immensely improved how we find link targets. We use it both for getting quick analysis of a site, as well as utilizing its extensive index when we want to dive deep."</p>
+                           <span class="h6">- Jose Evans <small class="ml-0 ml-md-2">Engineer Google</small></span>
+                        </div>
+                     </div>
+                     <div class="customer-testimonial d-flex mb-5">
+                        <img src="{% static 'front/assets/img/team/profile-picture-6.jpg' %}" class="image image-sm mr-3 rounded-circle shadow" alt="">
+                        <div class="content bg-soft shadow-soft border border-light rounded position-relative p-4">
+                           <div class="d-flex mb-4"><span class="text-warning mr-2"><i class="star fas fa-star"></i></span> <span class="text-warning mr-2"><i class="star fas fa-star"></i></span> <span class="text-warning mr-2"><i class="star fas fa-star"></i></span> <span class="text-warning mr-2"><i class="star fas fa-star"></i></span> <span class="text-warning mr-2"><i class="star fas fa-star"></i></span></div>
+                           <p class="mt-2">"We use Rocket mainly for its site explorer, and it’s immensely improved how we find link targets. We use it both for getting quick analysis of a site, as well as utilizing its extensive index when we want to dive deep."</p>
+                           <span class="h6">- Charles Moody <small class="ml-0 ml-md-2">Manager IBM</small></span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col text-center"><button type="button" class="btn btn-primary"><span class="mr-2"><i class="fas fa-book-open"></i></span> See all stories</button></div>
+               </div>
+            </div>
+         </section>
+
+        <section class="section section-lg pb-5 bg-soft">
+            <div class="container">
+               <div class="row">
+                  <div class="col-12 text-center mb-5">
+                     <h2 class="mb-4">Faster growth starts with Rocket</h2>
+                     <p class="lead mb-5">Join over <span class="font-weight-bolder">300,000+</span> users</p>
+                     <a href="index.html#" class="icon icon-lg text-gray mr-3"><i class="fab fa-mailchimp"></i> </a><a href="index.html#" class="icon icon-lg text-gray mr-3"><i class="fab fa-cpanel"></i> </a><a href="index.html#" class="icon icon-lg text-gray mr-3"><i class="fab fa-dhl"></i> </a><a href="index.html#" class="icon icon-lg text-gray mr-3"><i class="fab fa-github-alt"></i> </a><a href="index.html#" class="icon icon-lg text-gray mr-3"><i class="fab fa-aws"></i> </a><a href="index.html#" class="icon icon-lg text-gray"><i class="fab fa-node"></i></a>
+                  </div>
+                  <div class="col-12 text-center">
+                     <!-- Button Modal --> <button class="btn btn-secondary animate-up-2" data-toggle="modal" data-target=".pricing-modal"><span class="mr-2"><i class="fas fa-hand-pointer"></i></span>Start 30-days trial</button>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <div id="pricing-modal" class="modal fade pricing-modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+               <div class="modal-content py-4">
+                  <div class="px-3">
+                     <div class="col-12 d-flex justify-content-end d-lg-none"><i class="fas fa-times" data-dismiss="modal" aria-label="Close"></i></div>
+                  </div>
+                  <div class="modal-header text-center text-black">
+                     <div class="col-12">
+                        <h4 class="px-lg-6">Our 30-days trial gives you full access to all tools and features of your chosen plan.</h4>
+                     </div>
+                  </div>
+                  <div class="modal-body">
+                     <div class="row">
+                        <div class="col-12 col-lg-6 text-left">
+                           <div class="form-check card border-light p-3"><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked="checked"> <label class="form-check-label" for="exampleRadios1"><span class="h6 text-black d-block">Free</span> <span class="small text-gray">30 days for free, then $99/mo</span> <span class="text-gray mt-3 d-block p">Suits freelance marketers and solopreneurs. Get full access to Ahrefs' core tools and features with enough data to do SEO for your personal projects.</span></label></div>
+                        </div>
+                        <div class="col-12 col-lg-6 text-left">
+                           <div class="form-check card border-light p-3"><input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2"> <label class="form-check-label" for="exampleRadios2"><span class="h6 text-black d-block">Premium</span> <span class="small text-gray">200$/mo</span> <span class="text-gray mt-3 d-block p">Perfect for SEO consultants and in-house marketers. Get everything in Lite with more features and increased data limits to research a large number of websites.</span></label></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="modal-footer border-0 text-center">
+                     <div class="col text-gray">
+                        <a href="{% url 'login' %}" class="btn btn-primary mb-4">Continue</a>
+                        <p class="small mb-0">You can upgrade, downgrade, or cancel your subscription anytime.<br>No contracts, no hidden charges.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+	</div>	
+
+
+{% endblock %}
